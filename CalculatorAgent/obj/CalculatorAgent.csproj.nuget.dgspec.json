@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DEV\\Resources\\Vyuka\\AiCourxeMicrosoftAgentFramework\\Agents02\\AG_09\\CalculatorAgent\\CalculatorAgent.csproj": {}
+  },
+  "projects": {
+    "D:\\DEV\\Resources\\Vyuka\\AiCourxeMicrosoftAgentFramework\\Agents02\\AG_09\\CalculatorAgent\\CalculatorAgent.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DEV\\Resources\\Vyuka\\AiCourxeMicrosoftAgentFramework\\Agents02\\AG_09\\CalculatorAgent\\CalculatorAgent.csproj",
+        "projectName": "CalculatorAgent",
+        "projectPath": "D:\\DEV\\Resources\\Vyuka\\AiCourxeMicrosoftAgentFramework\\Agents02\\AG_09\\CalculatorAgent\\CalculatorAgent.csproj",
+        "packagesPath": "C:\\Users\\TomášKolovratník\\.nuget\\packages\\",
+        "outputPath": "D:\\DEV\\Resources\\Vyuka\\AiCourxeMicrosoftAgentFramework\\Agents02\\AG_09\\CalculatorAgent\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\TomášKolovratník\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://codenow.jfrog.io/artifactory/api/nuget/conseq-nuget/": {},
+          "https://nuget.devexpress.com/yZIuXODy1S2iKEIl4blNMdFov5A9r7CDwO9KXIisQkjNwSg9Sj/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.100"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Agents.AI": {
+              "target": "Package",
+              "version": "[1.0.0-preview.251204.1, )"
+            },
+            "Microsoft.Extensions.AI.OpenAI": {
+              "target": "Package",
+              "version": "[10.1.1-preview.1.25612.2, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.UserSecrets": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "OpenAI": {
+              "target": "Package",
+              "version": "[2.8.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
